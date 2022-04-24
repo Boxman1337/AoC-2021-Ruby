@@ -1,8 +1,9 @@
 def amountOfDepthIncreases
 
     # AoC Puzzle Key
-    depths = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
-    
+    path = __dir__ + "./PuzzleInput.txt"
+    data = File.read(path).split.map(&:to_i);
+
     # Amount of times the depth increased from the previous depth
     depthIncreasedFromPrev = 0;
 
@@ -11,7 +12,7 @@ def amountOfDepthIncreases
 
     # For each depth: compare with previous depth
     # If current depth is greater than previous depth, increment counter and save current depth  
-    depths.each do |currentDepth|
+    data.each do |currentDepth|
 
         if ((currentDepth > previousDepth) and (previousDepth != 0)) 
             depthIncreasedFromPrev = depthIncreasedFromPrev + 1; 
@@ -27,4 +28,4 @@ def amountOfDepthIncreases
 end
 
 # Print amount of times the depth increased
-print amountOfDepthIncreases;
+puts amountOfDepthIncreases;
