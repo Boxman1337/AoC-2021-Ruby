@@ -13,22 +13,22 @@ class Submarine
     end
 
     def forward(steps)
-        @horisontalPosition += steps
+        @horisontalPosition = @horisontalPosition + steps
     end
 
     def up(steps)
-        @depth -= steps
+        @depth = @depth - steps
     end
 
     def down(steps)
-        @depth += steps
+        @depth = @depth + steps
     end
 
     def parseOrder(order)
 
         # Splits the order into an array where the first element is the order 
         # and the second element is the amount of steps
-        rawOrder = order.split(" ")
+        rawOrder = order.strip.split(" ")
 
         # Case switch of the different valid orders
         case rawOrder[0]
@@ -47,7 +47,7 @@ def main
 
     # AoC Puzzle Input from file
     path = __dir__ + "./PuzzleInput.txt"
-    array = File.read(path).split
+    array = File.readlines(path)
 
     # Creates submarine instance and parses the input file orders
     submarine = Submarine.new
@@ -57,6 +57,7 @@ def main
     
     # Calculates the product (depth * horisontalPosition)
     puts "Product: #{(submarine.getDepth * submarine.getHorizontalPosition)}"
+
 end
 
 main
