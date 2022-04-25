@@ -1,6 +1,6 @@
-# ♦️ Advent of Code - Ruby Edition ♦️
+# ♦️ Advent of Code 2021 - Ruby Edition ♦️
 
-This repository will be used for storing my solutions to <https://adventofcode.com/> using only Ruby as an effort to learn the language. 
+This repository will be used for storing my solutions to <https://adventofcode.com/2021/> using only Ruby as an effort to learn the language. 
 
 ## Checklist: 
 
