@@ -6,5 +6,5 @@ Link: <https://adventofcode.com/>
 
 ## Checklist: 
 
-- [x] Day 1 - Sonar Sweep (Part 1: ✔️, Part 2: ✔️)
-- [ ] Day 2 - Dive! (Part 1: ✔️, Part 2: ❌)
+- [x] Day 1 - Sonar Sweep       (Part 1: ✔️, Part 2: ✔️)
+- [ ] Day 2 - Dive!             (Part 1: ✔️, Part 2: ❌)
