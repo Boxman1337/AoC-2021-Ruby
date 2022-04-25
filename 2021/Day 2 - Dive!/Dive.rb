@@ -58,3 +58,5 @@ def main
     # Calculates the product (depth * horisontalPosition)
     puts "Product: #{(submarine.getDepth * submarine.getHorizontalPosition)}"
 end
+
+main
