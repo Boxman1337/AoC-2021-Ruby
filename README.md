@@ -4,5 +4,5 @@ This repository will be used for storing my solutions to AoC using only Ruby as 
 
 ## Checklist: 
 
-- [x] Sonar Sweep
-- [ ] Dive!
+- [x] Day 1 - Sonar Sweep
+- [ ] Day 2 - Dive!
