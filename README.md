@@ -1,11 +1,11 @@
-# ☂️ Advent of Code 2021 - Ruby Edition ☂️
+# ♦️ Advent of Code 2021 - Ruby Edition ♦️
 
 This repository will be used for storing my solutions to <https://adventofcode.com/2021/> using only Ruby as an effort to learn the language. 
 
 ## Checklist: 
 
-- [ ] Day 1 - Sonar Sweep                     <pre> (Part 1: ❌, Part 2: ❌) </pre>
-- [ ] Day 2 - Dive!                           <pre> (Part 1: ❌, Part 2: ❌) </pre>
+- [x] Day 1 - Sonar Sweep                     <pre> (Part 1: ✔️, Part 2: ✔️) </pre>
+- [ ] Day 2 - Dive!                           <pre> (Part 1: ✔️, Part 2: ❌) </pre>
 - [ ] Day 3 - Binary Diagnostic               <pre> (Part 1: ❌, Part 2: ❌) </pre>
 - [ ] Day 4 - Giant Squid                     <pre> (Part 1: ❌, Part 2: ❌) </pre>
 - [ ] Day 5 - Hydrothermal Venture            <pre> (Part 1: ❌, Part 2: ❌) </pre>
