@@ -2,6 +2,7 @@ class Submarine
     def initialize
         @horisontalPosition = 0
         @depth = 0
+        @aim = 0
     end
 
     def getDepth
@@ -13,15 +14,16 @@ class Submarine
     end
 
     def forward(steps)
-        @horisontalPosition = @horisontalPosition + steps
+        @horisontalPosition += steps
+        @depth += @aim * steps
     end
 
     def up(steps)
-        @depth = @depth - steps
+        @aim -= steps
     end
 
     def down(steps)
-        @depth = @depth + steps
+        @aim += steps
     end
 
     def parseOrder(order)
